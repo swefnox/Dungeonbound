@@ -1,0 +1,5 @@
+The code is published on MIT license
+
+The game assetes (sptites) are published on CC-BY 4.0 license.
+
+Both attributed to Paweł M. Stasik (swefnox.itch.io)
