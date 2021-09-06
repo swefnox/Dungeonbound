@@ -12,7 +12,7 @@ if(enabled)
 			if(do_timeout)
 			{
 				timedout = true;
-				alarm_set(0, 60);
+				alarm_set(0, 30);
 			}
 		}
 	}

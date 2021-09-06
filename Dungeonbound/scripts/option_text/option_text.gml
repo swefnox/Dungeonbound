@@ -24,7 +24,7 @@ switch(argument0)
 	case 13: return "Jump at the lich.";
 	case 14: return "Listen carefully to the incantation to find an good moment to attack.";
 	case 15: return "Run around the lich and push on him the large candlestick that's behind him.";
-	case 16: return "Throw a stone at the candlestick behind the lick, hoping it will fall on the undead.";
+	case 16: return "Throw a stone at the candlestick behind the lich, making it fall on him.";
 	case 17: return "Start staring at the lich... perhaps that will distract him.";
 	case 18: return "Punch the lich with the Mighty Gauntlet.";
 	case 19: return "Swing the Fire Sword at the lich.";
@@ -34,7 +34,7 @@ switch(argument0)
 	
 	case 23: return "Hit the lich in his face!";
 	case 24: return "Throw yourself at the lich, pinning him to the ground.";
-	case 25: return "Histen out when the desperate undead is the most focused on his spell and strike!";
+	case 25: return "Listen in when the desperate undead is the most distracted and strike!";
 	case 26: return "Charge at the lich!";
 	case 27: return "Wait for a moment, get a second wind and punch the lich!";
 	case 28: return "Watch when the lich is losing his stance and then strike!";
@@ -46,7 +46,7 @@ switch(argument0)
 	
 	case 34: return "Hit the lich in his face!";
 	case 35: return "Throw yourself at the lich, pinning him to the ground.";
-	case 36: return "Listen out when the desperate undead is the most focused on his spell and strike!";
+	case 36: return "Listen in when the desperate undead is the most distracted and strike!";
 	case 37: return "Charge at the lich!";
 	case 38: return "Wait for a moment, get a second wind and punch the lich!";
 	case 39: return "Watch when the lich is losing his stance and then strike!";

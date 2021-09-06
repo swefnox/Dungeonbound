@@ -29,9 +29,10 @@ if(blocked_time > 0) //partial fading of the room
 }
 
 //let's orient the tile properly
-var left = !is_room_from(grid, grid_x, grid_y, DIR_LEFT);
-var up = !is_room_from(grid, grid_x, grid_y, DIR_UP);
-var right = !is_room_from(grid, grid_x, grid_y, DIR_RIGHT);
-var down = !is_room_from(grid, grid_x, grid_y, DIR_DOWN);
 
-image_index = sprite_dir_index_bool(right, up, left, down);
+	var left = !is_room_from(grid, grid_x, grid_y, DIR_LEFT);
+	var up = !is_room_from(grid, grid_x, grid_y, DIR_UP);
+	var right = !is_room_from(grid, grid_x, grid_y, DIR_RIGHT);
+	var down = !is_room_from(grid, grid_x, grid_y, DIR_DOWN);
+
+	image_index = sprite_dir_index_bool(right, up, left, down);

@@ -215,6 +215,48 @@
             "value": "0",
             "varName": "blocked_out",
             "varType": 3
+        },
+        {
+            "id": "ffbc96cf-29e5-4ca6-8338-d2a5a130f131",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "[[9,10,11,12],[13,14,15,16],[17,18,19,20],[5,6,7,8]]",
+            "varName": "dir_anim_frames",
+            "varType": 1
+        },
+        {
+            "id": "5a89231b-41a4-48a7-8e93-70ddb5cfd465",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "frame_i",
+            "varType": 0
+        },
+        {
+            "id": "9b5e169b-60fa-46ef-a555-eb977d4d9ba9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "frame_t",
+            "varType": 0
         }
     ],
     "solid": false,

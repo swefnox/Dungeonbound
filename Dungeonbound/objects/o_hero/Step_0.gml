@@ -22,6 +22,8 @@ if(controlable)
 }
 //show_debug_message([dx, dy, in_direction]);
 
+var use_default_frame = true;
+
 switch(state)
 {
 	case PlayerState.Busy:
@@ -73,6 +75,8 @@ switch(state)
 				}
 				state = PlayerState.Moving;
 				state_timer = 0;
+				frame_i = 0;
+				frame_t = 0;
 				
 				with(grid)
 				{
@@ -86,9 +90,26 @@ switch(state)
 		}
 		break;
 	case PlayerState.Moving:
+		use_default_frame = false;
 		break;
 }
 
 if(state_timer < 1000) ++state_timer;
 
-image_index = sprite_dir_index(faces);
+if(use_default_frame)
+{
+	image_index = sprite_dir_index(faces);
+}
+else
+{
+	var set = dir_anim_frames[faces];
+	//show_debug_message(set);
+	image_index = set[frame_i % array_length_1d(set)];
+	if(++frame_t >= 2)
+	{
+		++frame_i;
+		frame_t = 0;
+	}
+	
+	//show_debug_message([image_index, frame_t, frame_i, array_length_1d(set)]);
+}
